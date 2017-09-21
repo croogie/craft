@@ -9,13 +9,19 @@ Use your own starting point when setting up a new app, e.g. CSS, JS, manifests a
     $ npm install -g create-react-app
     $ npm install -g craftool
   
-## Create a new app
+## Create a new app from remote ZIP
 
     $ craft MyApp https://github.com/stoyan/fail/archive/master.zip
     $ cd MyApp
     $ npm install . # sets up create-react-app
+
+## Create a new app from local ZIP file
+
+    $ craft MyApp ../template.zip
+    $ cd MyApp
+    $ npm install . # sets up create-react-app
   
-This creates an app called `MyApp` using a zip template from github
+This creates an app called `MyApp` using a zip template.
 
 ## Get serious
 
